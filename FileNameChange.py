@@ -1,5 +1,5 @@
 # 파일 이름 변경(text.pdf -> text-홍길동.pdf)
-# 이름만 넣어줄 때 유용하나 그냥 엑셀에 있는 기능을 쓰는게 더 좋다.
+# 이름만 넣어줄 때 유용하나 그냥 엑셀에 있는 기능을 사용하는게 훨 나음
 import re
 from openpyxl import load_workbook
 import os
