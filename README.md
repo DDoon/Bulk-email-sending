@@ -19,11 +19,11 @@
     - **list32.xlsx**: 데이터가 담긴 엑셀파일(받는사람, 메일제목, 메일내용, 첨부파일)
     - **mail.py**: 데이터가 담긴 엑셀파일(받는사람, 메일제목, 메일내용, 첨부파일)
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled.png)
+![Untitled](images/Untitled.png)
 
 1. **account.py: 자신의 이메일 아이디와 비밀번호 입력**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%201.png)
+![Untitled](images/Untitled2.png)
 
 1. **mail.py: 이메일 보내는 파일** 
 
@@ -76,7 +76,7 @@ for 행 in ws.iter_rows(min_row=2):
 
 1. **엑셀파일.xlsx: 데이터가 담긴 엑셀파일(받는사람, 메일제목, 메일내용, 첨부파일)**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%202.png)
+![Untitled](images/Untitled3.png)
 
 # # 네이버 환경설정
 
@@ -84,15 +84,15 @@ for 행 in ws.iter_rows(min_row=2):
 
 1. 네이버 메일에 들어가 **왼쪽 하단에 환경설정 클릭**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%203.png)
+![Untitled](images/Untitled4.png)
 
 1. 환경설정 상단에 **POP3/IMAP 설정 클릭**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%204.png)
+![Untitled](images/Untitled5.png)
 
 1. **POP3/IMAP 설정 클릭 → IMAP/SMTP 설정 클릭 → IMAP/SMTP 사용에서 사용함 클릭 → 확인**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%205.png)
+![Untitled](images/Untitled6.png)
 
 # # 메일 보내기(코드실행 하기)
 
@@ -100,15 +100,15 @@ for 행 in ws.iter_rows(min_row=2):
 
 1. 엑셀 파일 설정
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%206.png)
+![Untitled](images/Untitled7.png)
 
 1. VScode **오른쪽 상단에 실행버튼**이 있음 클릭
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%207.png)
+![Untitled](images/Untitled8.png)
 
 1. 밑에 터미널 창에서 보낸거 확인 가능
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%208.png)
+![Untitled](images/Untitled9.png)
 
 - **Done : 보내기까지 완료시간**
 - **Running: 파이썬 경로**
@@ -117,9 +117,9 @@ for 행 in ws.iter_rows(min_row=2):
 
 1. **메일 확인**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%209.png)
+![Untitled](images/Untitled10.png)
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2010.png)
+![Untitled](images/Untitled11.png)
 
 - 위와 같이 엑셀에 있는 데이터로 메일제목, 첨부파일, 메일 내용 보내기 가능
 
@@ -130,7 +130,7 @@ for 행 in ws.iter_rows(min_row=2):
 - 한 사람에게 첨부파일을 여러개 보내야하는 상황 발생
 1. 엑셀파일에 첨부파일2 를 추가
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2011.png)
+![Untitled](images/Untitled12.png)
 
 1. 코드 추가
 
@@ -190,15 +190,15 @@ for 행 in ws.iter_rows(min_row=2):
 
 - def send_mail에 첨부파일2 작성
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2012.png)
+![Untitled](images/Untitled13.png)
 
 - 파일 첨부부분에 if문(첨부파일2) 작성
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2013.png)
+![Untitled](images/Untitled14.png)
 
 - for문에 첨부파일2 작성
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2014.png)
+![Untitled](images/Untitled15.png)
 
 - **위와 같이 작성한 후에 저장하기!!!!**
 - 그리고 실행해주면 한 사람에게 첨부파일 여러개가 들어가진다.
@@ -218,22 +218,22 @@ for 행 in ws.iter_rows(min_row=2):
 
 - **검색창에 cmd 입력 → 명령 프롬포트 실행**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2015.png)
+![Untitled](images/Untitled16.png)
 
 - 프롬포트 실행 → 파일이 담겨있는 디렉토리(폴더)경로 설정
 - cd : 경로 변경
 - C ~ : 변경 경로
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2016.png)
+![Untitled](images/Untitled17.png)
 
 - **dir/b>test.txt 입력후 엔터**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2017.png)
+![Untitled](images/Untitled18.png)
 
 - 엔터해주면 아까 입력한 경로에  파일명이 담겨있는 .txt파일이 생김
 - **텍스트파일 실행후 파일명을 엑셀에 복붙해주면 끝!**
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A2%E1%84%85%E1%85%A3%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%89%E1%85%A9%E1%86%BC%20993cc652434e40f4bd1cd4430234d6ab/Untitled%2018.png)
+![Untitled](images/Untitled19.png)
 
 # # 참고사이트
 
